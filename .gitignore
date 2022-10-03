@@ -85,3 +85,4 @@ cython_debug/
 /tests/test_my.py
 /google_images_search/__pycache__/
 /dwnld/
+config/
