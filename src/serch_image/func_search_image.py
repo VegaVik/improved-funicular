@@ -1,16 +1,12 @@
-from turtle import right
-from google_images_search import GoogleImagesSearch
 import config
+from google_images_search import GoogleImagesSearch
 
 gis = GoogleImagesSearch(config.DEV_API_KEY, config.PROGECT_CX)
 
 _search_params = {
-    # Строка запроса
-    'q': 'Rebbeca CyberPunk',
-    # Кол-во запрошенных картинок
-    'num': 15,
+    'q': '...',
+    'num': 10,
     'fileType': 'png|jpg',
-    # Поиск по провам на картинку
     # 'rights': 'cc_publicdomain|cc_attribute|cc_sharealike|cc_noncommercial|cc_nonderived',
     # 'safe': 'active|high|medium|off|safeUndefined', ##
     # 'imgType': 'clipart|face|lineart|stock|photo|animated|imgTypeUndefined', ##
